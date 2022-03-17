@@ -1,0 +1,58 @@
+:root {
+    --red-color: #D40100;
+}
+
+#top {
+    background-color: black !important;
+    margin: 0;
+    text-align: right !important;
+    padding-right: 0;
+}
+
+#navItem {
+    color: white !important;
+    font-size: 1.5em !important;
+    padding-left: 100px !important;
+    padding-right: 0px !important;
+    margin-right: 0px;
+}
+
+#hamburgerButton {
+    background-color: var(--red-color) !important;
+    z-index: 0;
+    margin-right: 10px
+}
+
+#logoId {
+    width: 50px;
+    height: 50px;
+    margin-right: 25px;
+}
+
+#containerNavId {
+    margin-left: 0;
+    padding-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+    z-index: 100;
+}
+
+@media only screen and (min-width: 600px) {
+    #navItem {
+        padding-left: 0px;
+    }
+}
+
+#bannerImg {
+    padding-bottom: 40px;
+    height: 200px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Changa&family=Orbitron&display=swap');
+#bannerH1 {
+    font-family: 'Changa', sans-serif;
+}
+
+#bannerH5 {
+    font-family: 'Changa', sans-serif;
+}
